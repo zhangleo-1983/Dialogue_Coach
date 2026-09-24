@@ -55,7 +55,13 @@ v0.2 是冻结版本，不再更新。持续迭代的版本运行在[「新变�
 
 ## 安装
 
-在 Claude 中：设置 → 功能 → 技能，上传 `dialogue-coach.skill`。
+**方式一 · Claude 客户端**：设置 → 功能 → 技能，上传 `dialogue-coach.skill`。
+
+**方式二 · skills CLI**（支持 Claude Code / Cursor / Codex / Copilot 等）：
+
+```bash
+npx skills add zhangleo-1983/Dialogue_Coach --skill dialogue-coach
+```
 
 ## 许可
 
